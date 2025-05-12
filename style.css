@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 235, 243);
+}
+
+.container {
+    display: block;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    color: rgb(24, 24, 50);
+}
+
+.add {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    background-color: rgb(85, 55, 251);
+    color: aliceblue;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.books {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.books h {
+    font-size: 30px;
+}
+
+.books p {
+    font-size: 20px;
+}
+
+.books button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(230, 228, 240);
+    color: rgb(123, 123, 123);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.books img {
+    width: 100px;
+    height: 150px;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border: none;
+    border-radius: 15px;
+    gap: 10px;
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+.my-form h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(24, 24, 50);
+
+}
+
+.my-form input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    border: rgb(123, 123, 123) solid 1px;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.my-form label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.title {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 4px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 4px;
+}
+
+.my-form button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(85, 55, 251);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 950px;
+    justify-self: center;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 20px;
+    gap: 50px;
+}
+
+.main-div h {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: rgb(24, 24, 50);
+    font-weight: bold;
+}
+
+.main-div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(24, 24, 50);
+}
+
+.main-div button {
+    cursor: pointer;
+    color: rgb(24, 24, 50);
+}
